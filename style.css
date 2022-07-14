@@ -1,0 +1,224 @@
+@font-face {
+    font-family: 'Museo Sans 900 Black';
+    src: url('MuseoSansCyrl-900.eot');
+    src: url('MuseoSansCyrl-900.eot?#iefix') format('embedded-opentype'),
+    url('MuseoSansCyrl-900.woff') format('woff'),
+    url('MuseoSansCyrl-900.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    }
+    @font-face {
+        font-family: 'Museo Sans 300 Light';
+        src: url('MuseoSansCyrl-300.eot');
+        src: url('MuseoSansCyrl-300.eot?#iefix') format('embedded-opentype'),
+        url('MuseoSansCyrl-300.woff') format('woff'),
+        url('MuseoSansCyrl-300.ttf') format('truetype');
+        font-weight: normal;
+        font-style: normal;
+        }
+
+header {
+    display: flex;
+    background: black;
+    align-items: center;
+    padding-left: 8%;
+    padding-right: 8%;
+    margin: 0;
+    height: 65px;
+}
+body {
+    margin: 0;
+}
+h1, h2, p {
+    color: white;
+}
+.logo {
+    display: flex;
+    flex-direction: row;
+    margin-left: 31px;
+    margin-right: 10px;
+}
+h1 {
+    
+    font-family:'Museo Sans Cyrl';
+    font-size: 18px;
+    line-height: 80px;
+    font-weight: 900;
+}
+h2 {
+    font-family: 'Museo Sans Cyrl';
+    font-size: 16px;
+    line-height: 80px;
+    font-weight: 900;
+    padding-right: 18px;
+    margin: 0;
+}
+.separator {
+    margin: 0px 27px 0px 22px;
+}
+.email {
+    padding-left: 90px;
+}
+.write_email {
+    padding-left: 10px;
+    text-decoration: none;
+    color: white;
+}
+.phone {
+    padding-left: 23px;
+}
+.call_phone {
+    text-decoration: none;
+    color: white;
+    padding-left: 10px;
+    padding-right: 35px;
+}
+.write {
+    width: 160px;
+    height: 35px;
+    border-radius: 17.5px;
+    background: red;
+    color: white;
+    cursor: pointer;
+}
+.write:hover {
+    background-color: blueviolet;
+    box-shadow: 0 16px 36px rgba(246 152 12 / 20%);
+    transition: background-color 0.3s;
+    transition: margin-right 1s ease;
+    
+}
+.content {
+    background: black;
+}
+.carousel_img {
+    align-items: center;
+    width: 1230px;
+    margin: auto;
+}
+.advantages {
+    width: 1230px;
+    height: 685px;
+    background: white;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    position: relative;
+}
+p {
+    color: black;
+}
+.choice {
+    font-family: 'Museo Sans Cyrl';
+    font-size: 48px;
+    line-height: 80px;
+    font-weight: 900;
+    color: #151319;
+    margin: 46px 0 0 0;
+}
+.services {
+    font-family: 'Museo Sans Cyrl';
+    font-size: 18px;
+    line-height: 1.2;
+    font-weight: 300;
+    color: #151319;
+    text-align: center;
+    padding: 0px 367px 0px 367px;
+    margin: 41px 0 46px 0;
+
+}
+.adv_img {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    position: relative;
+}
+.quantity, .masters, .sterility {
+    width: 370px;
+    height: 400px;
+    background-color: #151319;
+    border-radius: 10px;
+    
+}
+.cnt_tattoo, p {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    margin: 0;
+}
+.count {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 60px;
+    line-height: 50px;
+    margin: 0;
+}
+.detail {
+    width: 166px;
+    height: 50px;
+    border: 1px solid #f7f7f7;
+    border-radius: 20px;
+    opacity: 0.2;
+    cursor: pointer;
+    color: red;
+}
+.detail:hover {
+    background-color: red;
+    box-shadow: 0 16px 36px rgba(246 152 12 / 20%);
+    transition: background-color 0.3s;
+    transition: margin-right 1s ease;
+    opacity: 1;
+    border: none;
+    color: white;
+}
+.line {
+    padding: 50px 0 50px 0;
+    
+}
+.one {
+    font-family: 'Museo Sans Cyrl';
+    font-size: 72px;
+    line-height: 1.2;
+    font-weight: 900;
+    color: #ffffff;
+}
+.two {
+    font-family: 'Museo Sans Cyrl';
+    font-size: 18px;
+    line-height: 1.2;
+    font-weight: 300;
+    color: #ffffff;
+    margin-top: 50px;
+}
+.count_masters {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    align-items:center;
+    margin: 0;
+    line-height: 50px;
+}
+.cnt_masters {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.sterility {
+    /* position: absolute; */
+}
+.property {
+    display: flex;
+    flex-direction: column;
+    top: 60px;
+    position: absolute;
+    align-items: center;
+}
+.pure {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+}
